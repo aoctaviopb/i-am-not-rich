@@ -9,12 +9,16 @@ void main() {
         appBar: AppBar(
           backgroundColor: Colors.indigo,
           title: Center(
-            child: Text('¿Who am I?'),
+            child: Text('What am I?'),
           ),
         ),
         body: Center(
-          child: Image(
-            image: AssetImage('images/001.png'),
+          child: Text(
+            'If I am not rich, what am I?',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 50,
+            ),
           ),
         ),
       ),
